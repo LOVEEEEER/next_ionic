@@ -65,7 +65,7 @@ const CreateProduct = () => {
       try {
         async function uploadImage(img) {
           let body = new FormData();
-          body.set('key', process.env.IMGBB_TOKEN);
+          body.set('key', '4b10c21954afd8147c0056e9d59a547d');
           body.append('image', img);
 
           return axios({
